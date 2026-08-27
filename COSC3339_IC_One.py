@@ -62,7 +62,7 @@ def curve_scores(scores):
 
 # For scenario three change the name of this method.
 # For scenario five fix the typos
-def _validate_imput(text_value):
+def _validate_imput_field(text_value): #renamed to _validate_input_field
 
     valud_imput = True 
     
