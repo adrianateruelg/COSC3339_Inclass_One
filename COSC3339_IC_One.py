@@ -1,6 +1,6 @@
-# YOUR NAME HERE
-# YOUR SECTION HERE
-# DATE OF EDITING HERE
+# Adriana Teruel
+# COSC-3339-01
+# August 27, 2026
 
 """
 ASSIGNMENT: INTRODUCTION TO MERGING
@@ -21,7 +21,7 @@ def calculate_hypotenuse(side_a, side_b):
 def count_words(sentence):
     if len(sentence) == 0:
         return 0
-    words = sentence.split(',')  
+    words = sentence.split()  
     return len(words)
 
 
