@@ -74,6 +74,13 @@ def _validate_imput_field(text_value): #renamed to _validate_input_field
         
     return valud_imput
 
+def process_user_data(user_input):
+    if _validate_imput(user_input):
+        print(f"Processing: {user_input}")
+        return True
+    else:
+        return False
+
 
 def main():
     print("--- STARTING TESTS ---")
@@ -108,12 +115,12 @@ def main():
     # In 'Change Six', you will uncomment the lines below and write 
     # a new function called 'process_user_data' that uses the helper.
     
-    # print("--- SCENARIO 3 TEST ---")
-    # user_input = "This is some fake user data"
-    # if process_user_data(user_input):
-    #     print("Data processed successfully")
-    # else:
-    #     print("Data invalid")
+    print("--- SCENARIO 3 TEST ---")
+    user_input = "This is some fake user data"
+    if process_user_data(user_input):
+        print("Data processed successfully")
+    else:
+        print("Data invalid")
     
     print("\n--- END OF TESTS ---")
 
