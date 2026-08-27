@@ -1,6 +1,6 @@
-# YOUR NAME HERE
-# YOUR SECTION HERE
-# DATE OF EDITING HERE
+# Adriana Teruel
+# COSC-3339-01
+# August 27, 2026
 
 """
 ASSIGNMENT: INTRODUCTION TO MERGING
@@ -14,7 +14,7 @@ import math
 
 # This method contains a bug. In your commit note, state the bug and how you fixed it
 def calculate_hypotenuse(side_a, side_b):
-    result = side_a + side_b  
+    result = math.sqrt(side_a**2 + side_b**2)  
     return result
 
 # This method contains a bug. In your commit note, state the bug and how you fixed it
