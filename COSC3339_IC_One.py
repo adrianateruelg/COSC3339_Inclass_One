@@ -75,7 +75,7 @@ def _validate_imput_field(text_value): #renamed to _validate_input_field
     return valud_imput
 
 def process_user_data(user_input):
-    if _validate_imput(user_input):
+    if _validate_imput_field(user_input): 
         print(f"Processing: {user_input}")
         return True
     else:
